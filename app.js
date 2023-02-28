@@ -40,8 +40,7 @@ searchBtn.addEventListener('click', async () => {
             <div id="species-container" style="display:none;"></div>
             <button id="show-species-btn">Show Species</button>
             <div id="vehicles-container" style="display:none;"></div>
-            <button id="show-vehicles-btn">Show Vehicles</button>
-          `;
+            <button id="show-vehicles-btn">Show Vehicles</button>`;
           detailsContainer.innerHTML = detailsHtml;
           const showFilmsBtn = document.getElementById('show-films-btn');
           const showSpeciesBtn = document.getElementById('show-species-btn');
@@ -99,4 +98,4 @@ searchBtn.addEventListener('click', async () => {
           }
         }
     }
-});   
+});
